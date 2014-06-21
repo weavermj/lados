@@ -1,20 +1,16 @@
 <?php
 /*
-+----------------------------------------------------------------+
-|																							|
-|	WordPress 2.7 Plugin: WP-Print 2.50										|
-|	Copyright (c) 2008 Lester "GaMerZ" Chan									|
-|																							|
-|	File Written By:																	|
-|	- Lester "GaMerZ" Chan															|
-|	- http://lesterchan.net															|
-|																							|
-|	File Information:																	|
-|	- Process Printing Page															|
-|	- wp-content/plugins/wp-print/print.php									|
-|																							|
-+----------------------------------------------------------------+
-*/
+ * WordPress Plugin: WP-Print
+ * Copyright (c) 2012 Lester "GaMerZ" Chan
+ *
+ * File Written By:
+ * - Lester "GaMerZ" Chan
+ * - http://lesterchan.net
+ *
+ * File Information:
+ * - Process Printing Page
+ * - wp-content/plugins/wp-print/print.php
+ */
 
 
 ### Variables
@@ -31,9 +27,8 @@ add_filter('comments_template', 'print_template_comments');
 $print_options = get_option('print_options');
 
 ### Load Print Post/Page Template
-if(file_exists(TEMPLATEPATH.'/print-posts.php')) {
-	include(TEMPLATEPATH.'/print-posts.php');
+if(file_exists(get_stylesheet_directory().'/print-posts.php')) {
+	include(get_stylesheet_directory().'/print-posts.php');
 } else {
 	include(WP_PLUGIN_DIR.'/wp-print/print-posts.php');
 }
-?>

@@ -1,41 +1,46 @@
 === WP-Table Reloaded ===
-Contributors: TobiasBg 
+Contributors: TobiasBg
 Donate link: http://tobias.baethge.com/donate/
 Tags: html,table,data,editor,csv,import,export,excel,widget,admin,sidebar
-Requires at least: 2.6
-Tested up to: 2.8.3
-Stable tag: 1.4.1
+Requires at least: 3.1
+Tested up to: 3.6
+Stable tag: 1.9.4
 
-WP-Table Reloaded enables you to create and manage tables in your WP's admin area. No HTML knowledge is needed. A comfortable backend allows to easily edit table data. You can include the tables into your posts, on your pages or in text widgets by using a shortcode or a template tag function. Tables can be imported and exported from/to CSV, XML and HTML.
+WP-Table Reloaded is outdated! Please install its successor TablePress only. Visit http://tablepress.org/ for more information.
 
 == Description ==
 
-WP-Table Reloaded enables you to create and manage tables in your WP's admin area. No HTML knowledge is needed. A comfortable backend allows to easily edit table data. You can include the tables into your posts, on your pages or in text widgets by using a shortcode or a template tag function. Tables can be imported and exported from/to CSV, XML and HTML.
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
 
-The plugin is a completely rewritten and extended version of Alex Rabe's "wp-Table" and uses the state-of-the-art WordPress techniques which makes it faster and lighter than the original plugin. You may also have both plugins installed at the same time and you can also import your tables from the wp-Table plugin!
+WP-Table Reloaded enables you to create and manage tables in your WP's admin area. No HTML knowledge is needed. A comfortable backend allows to easily edit table data. Tables can contain any type of data and additional JavaScript libraries can be used to extend it with features like sorting, pagination, filtering, and more. You can include the tables into your posts, on your pages or in text widgets by using a shortcode or a template tag function. Tables can be imported and exported from/to CSV, XML and HTML.
 
 = More information =
 Please see the English plugin website http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-english/ .
 
-If you like this plugin, please rate it here in the WordPress Plugin Directory or make a [donation](http://tobias.baethge.com/donate/). Thank you!
+If you like this plugin, please rate it here in the WordPress Plugin Directory, make a [donation](http://tobias.baethge.com/donate/), or [flattr it](https://flattr.com/thing/118856/WP-Table-Reloaded). Thank you!
 
 = Informationen auf Deutsch =
-Dieses Plugin erlaubt die Verwaltung von Tabellen in WordPress.
+Dieses Plugin erlaubt die komfortable Verwaltung von Tabellen in WordPress. Dafür werden keine HTML-Kenntnisse benötigt. Die Daten werden in einer Eingabemaske eingegeben und mittels eines Shortcodes in Artikel, Seiten oder Text-Widgets eingebunden. Zusätzlich können einer Tabelle mit einer JavaScript-Bibliothek weitere Fähigkeiten, wie Sortieren, Paginierung und Filterung hinzugefügt werden.
 
 Weitere Informationen auf Deutsch: http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-deutsch/
 
-Wenn dir das Plugin gef&auml;llt, bewerte es bitte hier im WordPress Plugin Directory oder [spende](http://tobias.baethge.com/donate/). Danke!
+Wenn dir das Plugin gefällt, bewerte es bitte hier im WordPress Plugin Directory, [spende](http://tobias.baethge.com/donate/) oder [&quot;flattere&quot;](https://flattr.com/thing/118856/WP-Table-Reloaded). Danke!
 
 == Screenshots ==
 
-1. "List tables" screen
-2. "Add table" screen
-3. "Edit table" screen
-4. "Import table" screen
-5. "Export table" screen
-6. "Plugin Options" screen
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
+
+Screenshots are available on http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-english/ .
 
 == Installation ==
+
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
 
 The easiest way is through your WordPress Admin area. Go to the plugin section and search for "WP-Table Reloaded" in the WordPress Plugin Directory. Then you can click "Install" and the following steps will be done for you automatically. You just have to activate the plugin (step 5).
 
@@ -49,67 +54,172 @@ Manual Installation works just as for most other WordPress plugins:
 
 1. Include a table by adding the shortcode [table id=&lt;your-table's-id&gt; /] to your post, page or text widget.
 
-1. You might want to add styling features via your blog's theme's CSS file (probably style.css) or via the option in the "Plugin Options" screen, where you can enter your CSS directly.
+1. You might want to add styling features via the option in the "Plugin Options" screen, where you can enter your CSS directly.
 
 == Frequently Asked Questions ==
 
-= Can I use wp-Table and WP-Table Reloaded together? =
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
 
-Yes! You can have both wp-Table and WP-Table Reloaded installed in your WordPress! They will not interfere (as they are not using anything together). They are completely independent from each other.
-If WP-Table Reloaded finds the wp-Table database tables, it can import the found tables into it's own format, so that you can completely upgrade from wp-Table to WP-Table Reloaded.
+= Where can I find answers to Frequently Asked Questions? =
+
+A wide group of questions, regarding different features or styling has been answered in the [FAQ section](http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-english/faq/) on the plugin's website.
 
 = Support? =
 
-If you find a bug or have a feature request, please don�t hesitate to tell me about it.
-You would help a lot if you could add an issue ticket in the [issue tracker on Google Code](http://code.google.com/p/wp-table-reloaded/).
-Feature requests may also posted in the comments on the plugin website.
-
-For other help or support questions (especially with CSS), please use the [WordPress Support Forums](http://wordpress.org/support/). Please [open a new topic](http://wordpress.org/tags/wp-table-reloaded?forum_id=10#postform) there (with the tag "wp-table-reloaded") and email me a link to the thread (or post it as a comment on the plugin website). Thank you!
-You may also make feature requests using this method! Don't be shy!
+For support questions, bug reports, or feature requests, please use the [WordPress Support Forums](http://wordpress.org/support/plugin/wp-table-reloaded). Please [search](http://wordpress.org/support/) through the forums first, and then only [open a new thread](http://wordpress.org/support/plugin/wp-table-reloaded) if you don't find an existing answer. Thank you!
 
 = Requirements? =
 
-In short: WordPress 2.6 or higher
+In short: WordPress 3.1 or higher, the latest version of WordPress is recommended.
 
 = Languages and Localization? =
 
 The plugin currently includes the following languages:
-Albanian, Belorussian, Brazilian Portuguese, Czech, English, French, German, Italian, Japanese, Polish, Russian, Spanish, Swedish and Turkish.
+Arabic, Belarusian, Brazilian Portuguese, Bulgarian, Chinese (Simplified), Czech, Dutch, English, Finnish, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Polish, Russian, Slovak, Spanish, Swedish, and Ukrainian.
 
 I'd really appreciate it, if you would translate the plugin into your language! Using Heiko Rabe's WordPress plugin [Codestyling Localization](http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en/) that really is as easy as pie. Just install the plugin, add your language, create the .po-file, translate the strings in the comfortable editor and create the .mo-file. It will automatically be saved in WP-Table Reloaded's plugin folder. If you send me the .mo- and .po-file, I will gladly include them into future plugin releases.
-There is also a .pot-file available to use in the "languages" subfolder.
+There is also a .pot-file available to use in the "languages" subfolder. Of course you can also use poEdit as your editor, which also works nicely.
 
 = Where can I get more information? =
 
 Please visit the [official plugin website](http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-english/) for the latest information on this plugin.
 
-Die Webseite des Plugins ist auch [auf Deutsch](http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-deutsch/) verf&uuml;gbar.
+Die Webseite des Plugins ist auch [auf Deutsch](http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-deutsch/) verfügbar.
 
 == Usage ==
+
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
 
 After installing the plugin, you can add, import, export, edit, copy, delete, ... tables via the "WP-Table Reloaded" screen which appears under the "Tools" section in your Admin menu.
 Everything should be self-explaining there.
 
 To show one of your tables in a post, on a page or in a text widget, just include the shortcode [table id=&lt;the-id&gt; /] to your post/page/text-widget, where &lt;the-id&gt is the ID of your table (can be found on the left side of the "List tables" screen.)
 
-After that you might want to change the style of the table. You can do this either by adding CSS to your theme's CSS stylesheet (probably style.css) or by entering it into the box on the "Plugin Options" screen. There are two example styles available on the [plugin website](http://tobias.baethge.com/wordpress-plugins/wp-table-reloaded-english/#usage)
-You may also add certain features (like table-sorting, alternating row colors, print name and/or description, ...) by checking the appropriate options in the "Edit table" screen.
+After that you might want to change the style of the table. You can do this by entering CSS commands into the "Custom CSS" textarea on the "Plugin Options" screen.
+You may also add certain features (like sorting, pagination, filtering, alternating row colors, row highlighting, print name and/or description, ...) by checking the appropriate options on the "Edit table" screen.
 
 == Acknowledgements ==
 
 Thanks go to [Alex Rabe](http://alexrabe.boelinger.com/) for the initial wp-Table plugin!
-Thanks go to [Christian Bach](http://tablesorter.com/docs/) for the TableSorter-jQuery-plugin.
+Special thanks go to [Allan Jardine](http://www.datatables.net/) for the DataTables-jQuery-plugin.
+Thanks go to [Christian Bach](http://tablesorter.com/docs/) for the TableSorter-jQuery-plugin and to [Sören Krings](http://tablesorter.openwerk.de/) for the TableSorter-Extended-jQuery-plugin.
 Thanks to all language file translators!
 Thanks to every donor, supporter and bug reporter!
 
 == License ==
 
-This plugin is Free Software, released under the GPL version 2.
+This plugin is Free Software, released under the GPL, version 2.
 You may use it free of charge for any purposes.
 I kindly ask you for link somewhere on your website to http://tobias.baethge.com/. This is not required!
 I'm also happy about [donations](http://tobias.baethge.com/donate/) or something from [my wishlist](http://tobias.baethge.com/wishlist)! Thanks!
 
 == Changelog ==
+
+> #### Attention: WP-Table Reloaded has been replaced with TablePress!
+> Please do not install WP-Table Reloaded anymore! Instead, please use the [TablePress](http://wordpress.org/plugins/tablepress/) plugin, which is the official successor of WP-Table Reloaded.
+> For users of WP-Table Reloaded, it is recommended to [migrate](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
+
+= Version 1.9.4 =
+* bugfix: Remove TableTools for DataTables, due to incompatibility
+* Important note: WP-Table Reloaded is outdated! Please [switch](http://tablepress.org/migration-from-wp-table-reloaded/) to TablePress.
+
+= Version 1.9.3 =
+* enhancement: reduce problems with blank space below tables, caused by a no-longer necessary minimum height
+* enhancement: improve behavior and returned results of integration of the WP search
+* enhancement: many improvements to the performance of JavaScript code on the WP-Table Reloaded screens
+* enhancement: improvements in possibilities for developer interaction (additional plugin filters, etc.)
+* bugfix: fixed naming of the sorting arrow images, which where wrongly pointing in the opposite direction
+* bugfix: fixes to handling of the "Insert Image" thickbox
+* bugfix: a few minor fixes to logical errors in JavaScript code on the WP-Table Reloaded screens
+* Dropped support for outdated WordPress version 3.0
+* languages: Added Bulgarian
+
+= Version 1.9.2 =
+* bugfix: Correct column width of "Edit" screen input fields in Internet Explorer 9
+* bugfix: Fix bug when a moved columns/rows were not moved to the correct place
+* bugfix: Restore functionality of the "Delete" link on the "List of Tables"
+* update: Added new DataTables version 1.8.2
+* enhancement: several code changes for better compatibility, adjustments to current WordPress versions
+* Dropped support for outdated WordPress versions 2.8 and 2.9
+* languages: Added Irish, Hebrew and Portuguese (Portugal), updated other languages, renamed Finnish language code to "fi"
+
+= Version 1.9.1 =
+* bugfix: update handling was broken in 1.9
+
+= Version 1.9 =
+* feature: option to have the generated table HTML cached in a WordPress transient for faster page generation
+* feature: tables can get additional custom CSS classes, e.g. for easier layout and styling, and grouping tables
+* feature: Updated DataTables JavaScript library to 1.7.5
+* enhancement: adjustments to make the plugin work better with WordPress 3.1
+* enhancement: Add cell content as a parameter for the CSS class filter
+* enhancement: Additional ID-based CSS classes for the table name and description texts
+* enhancement: JavaScript features on "List of Tables" screen can be customized more
+* enhancement: cleaned up and optimized some code
+* languages: Added Arabic and Dutch, updated other languages
+
+= Version 1.8 =
+* feature: Updated JavaScript libraries to DataTables 1.7 and TableTools 1.1.4
+* enhancement: Template tag functions now accept strings and arrays for passing parameters
+* enhancement: Backwards compatibility for deprecated functions, don't use deprecated functions anymore
+* enhancement: Sort on "Edit" screen no longer moves header or footer row, if they are activated
+* enhancement: Added plugin filter hook to change table content prior to rendering
+* enhancement: Added "summary" attribute filter for &lt;table&gt; HTML element
+* enhancement: RTL-languages supported in frontend CSS
+* enhancement: Adjusted default CSS for new default theme "TwentyTen"
+* bugfix: Fixed search to not find table IDs with the same beginning
+* bugfix: Fixed problem with certain call-by-reference functions in certain versions of PHP
+* bugfix: valid HTML on "Plugin Options" screen
+* bugfix: Fixed notice due to not initialized variable
+* bugfix: Fixed DataTables translations for Danish and Norwegian
+* languages: Added Polish and Belarusian
+* languages: Added Romanian for DataTables
+
+= Version 1.7 =
+* feature: add "Table" button to the visual editor (TinyMCE)
+* feature: update DataTables JavaScript library to version 1.6.2, including TableTools
+* enhancement: add option for initial number of rows per pagination page
+* enhancement: add value "all" to the four Shortcode parameters show_rows, hide_rows, show_columns, hide_columns
+* enhancement: add WP-Table Reloaded screen icon to all plugin screens and the Top-Level menu entry
+* enhancement: add two template tag functions that return the output instead of echoing it
+* bugfix: fix problem with admin menu parent pages, make them ready for WP 3.0
+* bugfix: import/replace replaces only data; name, description, options, and visibility settings are kept
+* languages: added French, Chinese (Simplified), Russian, and Ukrainian
+
+= Version 1.6.1 =
+* enhancement: let WP Search also search table name and description
+* enhancement: replacing a table during an import will leave options untouched and only replace table data
+* bugfix: better fix for DataTables invisibility issue in IE 7
+* enhancement: add 3 new plugin filters for frontend
+* bugfix: fix for problem with search, if data is empty somehow
+
+= Version 1.6 =
+* feature: Support for "rowspan" and "colspan" in tables
+* feature: WP Search will now also search in tables
+* feature: Possibility to select the plugin language
+* feature: Highlight row (background-color change when hovering)
+* feature: Option to show an "Edit Table" link on the frontend
+* enhancement: select fields for position of name and description
+* internal plugin restructuring
+* dropped support for outdated WordPress 2.7
+
+= Version 1.5 =
+* added the DataTables JavaScript library with these features: sorting, pagination, filtering, TableTools
+* heavily redesigned the "Edit Table" screen: Bulk operations for inserting, deleting, ...
+* Warning message if changes not yet saved
+* added features to the "Plugin Options": set access requirements (user roles) to the plugin and the Options, Change position of the plugin in the admin menu, better loading/inclusion of CSS
+* many, many plugin filters and actions for plugin customization
+* export/import a dump file (with ALL tables/options/settings at once)
+* fixed some minor bugs, errors and glitches
+* dropped support for outdated WordPress 2.6
+
+= Version 1.4.2a =
+* fixed bug: JavaScript errors in IE6 and 7 on Import screen
+* fixed bug: escapaping of delimiter when exporting was broken
+* added check for functions from mbstring library
 
 = Version 1.4.1 =
 * fixed small bug that led to occasional JavaScript timeout errors when editing large tables
@@ -173,3 +283,35 @@ I'm also happy about [donations](http://tobias.baethge.com/donate/) or something
 
 = Version 0.9 beta 1 =
 * First release (not everything functional)
+
+== Upgrade Notice ==
+
+= 1.9.4 =
+This upgrade includes an important bugfix and removes the TableTools. It is a strongly recommended maintenance release.
+
+= 1.9.3 =
+This upgrade includes several bugfixes and a few enhancements, and is a recommended maintenance release.
+
+= 1.9.2 =
+This upgrade includes several bugfixes and a few enhancements, like an updated DataTables library.
+
+= 1.9.1 =
+This upgrade includes a few new features, like output caching and a custom table CSS class, and several enhancements.
+
+= 1.9 =
+This upgrade includes a few new features, like output caching and a custom table CSS class, and several enhancements.
+
+= 1.8 =
+This upgrade includes an updated DataTables library, enhances several features and fixes a few small issues.
+
+= 1.7 =
+This upgrade includes an updated DataTables library, adds a "Table" button in the toolbar of the visual editor, and enhances several other things.
+
+= 1.6.1 =
+This upgrade fixes a few minor bugs and enhances the WP Search integration and the import.
+
+= 1.6 =
+This upgrade adds features like "colspan"/"rowspan" support, support for the WP Search, and more. WordPress 2.8 or higher is now required!
+
+= 1.5 =
+This upgrade contains a new JavaScript library for sorting, pagination, and filtering, and many more improvements to the interface.
